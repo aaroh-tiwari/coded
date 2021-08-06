@@ -1,35 +1,44 @@
-body{
+body {
     text-align: center;
 }
-h1{
+
+h1 {
     font-size: 40px;
     font-family: sans-serif;
     font-weight: 300;
 }
-#app{
+
+#app {
     width: 100%;
     height: 800px;
     background-color: aquamarine;
 }
-#games{
+
+#games {
     width: 100%;
     height: 800px;
     background-color: bisque;
 }
-#chatbot{
+
+#chatbot {
     width: 100%;
     height: 800px;
     background-color: darkturquoise;
 }
-.lime{
+
+.line {
     height: 6px;
-    width: 70px;
+    width: 150px;
     background-color: #000;
     margin: 8px auto;
 }
-img{
+
+img {
     transition: tranform 0.2s;
+    height: 300px;
+    width: 300px;
 }
-img:hover{
+
+img:hover {
     transform: scale(0.9);
 }
